@@ -1,0 +1,66 @@
+.bodyMenu{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.colorB{
+    color: black ;
+}
+
+.headerMenu{
+    background-color: blue;
+    height: 70px;
+    padding-left: 20px;
+    font-size: large;
+
+}
+
+.navMenu{
+    background-color: rgb(31, 31, 91);
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainMenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mainLeft{
+    width: 70vw;
+    border: 20px solid rgb(104, 103, 104);
+
+    &_wrp{
+        padding: 10px;
+    }
+
+    &_wrp_2{
+        border-top: 10px solid rgb(104, 103, 104);
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        article{
+            max-width: calc(50% - 15px);
+            min-width: 200px;
+            }
+        }
+
+    &_mainRigth{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+}
+
+
+.footerMenu{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    
+}
+

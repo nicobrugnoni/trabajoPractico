@@ -1,0 +1,48 @@
+
+.tienda{
+    background-image: url(../imagenes/img01.jpg);
+    position: relative;
+    height: 130vh;
+    margin: 0;
+    padding: 0;
+}
+
+.phone{
+    background: -webkit-linear-gradient(-50deg,  rgb(185, 66, 116) 3%, rgb(66, 16, 37) 95%);
+    position: absolute;
+    right: calc(50% - 190px);/* 160 */
+    top: 30px;
+    width: 320px; /* 320px */
+    border-radius: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    
+    
+    
+    
+    &_wrp{
+            video{
+                width: 100%;
+                border: 5px none white;
+                border-radius: 0 0 20px 20px;
+                box-shadow: 0 0 5px 6px white;
+                }
+        
+    }
+}
+
+.footer_content{
+    background-color: rgb(106, 27, 60);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    }
+
+.h_t{
+    color: white;
+}
