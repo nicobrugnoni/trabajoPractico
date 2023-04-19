@@ -133,6 +133,13 @@ p {
   display: flex;
   justify-content: flex-end;
 }
+.navMenu a {
+  color: white;
+  text-decoration: none;
+}
+.navMenu a:hover {
+  color: black;
+}
 
 .mainMenu {
   display: flex;

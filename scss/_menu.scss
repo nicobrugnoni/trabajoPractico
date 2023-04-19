@@ -20,6 +20,13 @@
     margin-top: 10px;
     display: flex;
     justify-content: flex-end;
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            color: black;
+        }
+    }
 }
 
 .mainMenu{
@@ -31,6 +38,8 @@
 .mainLeft{
     width: 70vw;
     border: 20px solid rgb(104, 103, 104);
+    
+
 
     &_wrp{
         padding: 10px;
